@@ -5,7 +5,8 @@ body{ background-image: url(background.jpg);
       font-size: 22px;
       font-family: Arial, Helvetica, sans-serif;
       background-attachment: fixed; /* essa propriedade serve para não deixar a imagem scrolar*/
-      background-size:  100% 100%;
+      background-size: cover;
+      background-position: right bottom;
 
 
   }
@@ -25,10 +26,11 @@ h1 {
 
 h2 {background:rgba(111, 168, 161, 1) ;
     width: 1738 px;
-    height: 150px;
+    height: 196px;
     margin: 150px auto 0 auto;
     text-align: right;
-    
+}
+
 h3{
 
     }
