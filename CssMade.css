@@ -1,7 +1,14 @@
 
 
 
-body{ background-image: url(background.jpg);}
+body{ background-image: url(background.jpg);
+      font-size: 22px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-attachment: fixed; /* essa propriedade serve para não deixar a imagem scrolar*/
+      background-size:  100% 100%;
+
+
+  }
 
 h1 {
     background: rgba(207, 245, 236, 1) ;
@@ -10,16 +17,21 @@ h1 {
     margin: 30px auto 0 auto;
     padding: 10px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     border-radius: 17px;
     
   
 }
 
-h2 {background: rgb(255, 255, 255) ;
-    width: 1900px;
-    height: 196px;
-    margin: 400px auto 0 auto;
+h2 {background:rgba(111, 168, 161, 1) ;
+    width: 1738 px;
+    height: 150px;
+    margin: 150px auto 0 auto;
+    text-align: right;
+    
+h3{
+
+    }
     
 border-radius: 5px;
     padding: 10px;}
