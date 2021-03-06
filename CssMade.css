@@ -2,11 +2,11 @@
 
 
 body{ background-image: url(background.jpg);
-      font-size: 22px;
+      font-size: 19px;
       font-family: Arial, Helvetica, sans-serif;
       background-attachment: fixed; /* essa propriedade serve para não deixar a imagem scrolar*/
-      background-size: cover;
-      background-position: right bottom;
+      background-size: cover; /* essa server pra ajustar a imagem na tela mesmo que corte um pedacinho*/
+      background-position: right bottom; /* essa serve pra vc ajustar manualmente onde vc quer que a imagem fique*/ 
 
 
   }
@@ -18,7 +18,8 @@ h1 {
     margin: 30px auto 0 auto;
     padding: 10px;
     text-align: center;
-    font-family: sans-serif;
+    font-family:  sans-serif;
+    font-size:  22px;
     border-radius: 17px;
     
   
